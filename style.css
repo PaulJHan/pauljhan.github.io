@@ -1,0 +1,86 @@
+body {
+  background-image: url("/resources/img/header.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #000;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Noto Sans HK", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #fffc;
+  text-align: center;
+  position: relative;
+  top: 33%;
+}
+
+.btn-primary {
+  font-size: 0.8em;
+  font-family: "Noto Sans HK", sans-serif;
+  text-transform: uppercase;
+  background-color: #ff851b;
+  border: 1px solid #ff851b;
+  border-radius: 50px;
+  display: block;
+  position: relative;
+  top: 55%;
+  width: 140px;
+  padding: 7px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary:hover {
+  background-color: #e38029;
+  border: 1px solid #e38029;
+}
+
+@media (max-width: 1059px) {
+  .btn-primary {
+    top: 54%;
+  }
+}
+
+@media (max-width: 985px) {
+  .btn-primary {
+    font-size: 0.8em;
+    top: 55%;
+    width: 140px;
+    padding: 5px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    top: 35%;
+  }
+}
+
+@media (max-width: 899px) {
+  .btn-primary {
+    font-size: 0.8em;
+    top: 64%;
+    width: 140px;
+    padding: 5px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    top: 35%;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn-primary {
+    font-size: 0.8em;
+    top: 60%;
+    width: 140px;
+    padding: 5px;
+  }
+  
+  h1 {
+    font-size: 1.4em;
+    top: 37%;
+}
